@@ -1,0 +1,27 @@
+.footer {
+  width: 100%;
+  background-color: $bg-dark;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.footer-menu {
+  width: 298px;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: $primary-color;
+  display: flex;
+  justify-content: space-between;
+}
+
+.company-address {
+  width: 537px;
+  margin: 22px auto 0 auto;
+  font-size: 11px;
+  line-height: 13px;
+  color: $light-color;
+  letter-spacing: 0.05em;
+  text-align: center;
+}

@@ -1,0 +1,59 @@
+.header {
+  top: 33px;
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-absolute {
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+.logo {
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 900;
+  display: flex;
+  flex-direction: row;
+}
+
+.menu-1 {
+  width: 813px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.menu {
+  width: 515px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  line-height: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header a {
+  color: $primary-color;
+}
+
+.email-phone {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: right;
+  color: $primary-color;
+}
+
+.line {
+  width: 99.0%;
+  height: 0; 
+  top: 109px;
+  border: 1px solid $primary-color;
+}

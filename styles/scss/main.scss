@@ -1,0 +1,120 @@
+main h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#news a {
+  color: $primary-color;
+}
+
+.bg-main-left {
+  width: 59.11%;
+  height: 652px;
+  background-color: $bg-light;
+  position: absolute;
+  z-index: -1;
+}
+
+.project-img {
+  width: 427px;
+  height: 450px;
+  margin: -62px 0 100px 398px;
+  background: no-repeat center/100% url(../images/Primorsk_5.png) $bg-image;
+  position: absolute;
+}
+
+.project-text-block {
+  width: 348px;
+  height: 124px;
+  font-size: 13px;
+  line-height: 22px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: $primary-color;
+  box-shadow: 0 0 20px rgba(224, 224, 224, 0.25);
+  padding: 30px 40px 46px 40px;
+  position: relative;
+  left: 0;
+  z-index: 3;
+}
+
+.projects-btn {
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.projects-btn-1 {
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  opacity: 0.4;
+  margin-left: 5px;
+}
+
+.border-btn {
+  border: 1px solid $bg-btn;
+}
+
+.border-btn-1 {
+  border: 1px solid #585858;
+}
+
+.right-arrow {
+  position: relative;
+  left: -30px;
+  opacity: 0.4;
+}
+
+.left-arrow {
+  position: relative;
+  top: 8px;
+  left: -98px;
+}
+
+.bg-main-right {
+  width: 40.89%;
+  height: 780px;
+  background-color: $bg-light;
+  margin-left: 59.11%;
+  position: absolute;
+  z-index: -1;
+}
+
+.container {
+  width: 825px;
+  margin: 0 auto;
+}
+
+.new-block {
+  width: 255px;
+  padding-bottom: 30px;
+  background-color: $primary-color;
+  box-shadow: 0 0 20px rgba(224, 224, 224, 0.25);
+}
+
+.new-img {
+  width: 255px;
+  height: 190px;
+  background: no-repeat center/100% url(../images/Primorsk_4.png) $bg-image;
+}
+
+.new-btn {
+  height: 40px;
+  background: $bg-btn;
+  font-size: 12px;
+  line-height: 14px;
+  color: #fff;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-btn-width {
+  width: 125px;
+}
+
+.news-btn-width {
+  width: 139px;
+}
